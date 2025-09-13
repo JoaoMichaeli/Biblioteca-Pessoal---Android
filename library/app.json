@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "library",
+    "slug": "library",
+    "version": "1.0.0",
+    "newArchEnabled": false,
+    "android": {
+      "package": "com.my.library",
+      "googleServicesFile": "./src/firebase/google-services.json"
+    },
+    "plugins": [
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth",
+      "expo-font",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ]
+    ]
+  }
+}
+
